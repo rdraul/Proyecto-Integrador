@@ -44,7 +44,7 @@ $fecha_act=$valores_fecha_act[2]."-".$valores_fecha_act[1]."-".$valores_fecha_ac
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Proveedor - Vista</title>
+<title>ComputerSoft - Proveedor - Vista</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -56,7 +56,7 @@ $fecha_act=$valores_fecha_act[2]."-".$valores_fecha_act[1]."-".$valores_fecha_ac
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -130,13 +130,13 @@ function printe(){
 
   <div class="form-group">
 
-    <img src='imagen/imgvenezon3.jpg' alt='logo venezon' width='80px' height='auto'>
+    <img src='imagen/imgvenezon3.jpg' alt='' width='80px' height='auto'>
 
   </div>
 
   <div class="form-group">
  
-    <span class="clientelabel">Cédula o Rif:</span>
+    <span class="clientelabel">Cédula:</span>
     <span class="clientedato"><?php echo $row2['cedula'] ?></span>
     <br/>
 

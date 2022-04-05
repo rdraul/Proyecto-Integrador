@@ -484,7 +484,7 @@ if(isset($_POST['submit3'])){
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Crear Factura - Cliente</title>
+<title>ComputerSoft - Crear Factura - Cliente</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -588,7 +588,7 @@ if(isset($_POST['submit3'])){
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="buscar_facturas.php?id_cliente=<?php echo $_SESSION['id_cliente'] ?>">Volver</a></span></p> 
 
@@ -612,7 +612,7 @@ if(isset($_POST['submit3'])){
 	<br/>
 	<b>Cliente:</b> <?php echo $_SESSION['cliente']; ?>
 	<br/>
-	<b>Cédula o Rif:</b> <?php echo $_SESSION['cedula']; ?>
+	<b>Cédula:</b> <?php echo $_SESSION['cedula']; ?>
 	<br/>
 	<b>Teléfono:</b> <?php echo $_SESSION['telefono']; ?>
 	<br/>

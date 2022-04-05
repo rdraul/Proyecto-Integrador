@@ -17,7 +17,7 @@ if ($definido==false){
 <html>
 <head>
 <meta charset="utf-8">	
-<title>Venezon - Reportes</title>
+<title>ComputerSoft - Reportes</title>
 
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -106,7 +106,7 @@ if ($definido==false){
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menú</a></span></p> 
 
     </div>

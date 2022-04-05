@@ -22,7 +22,7 @@ $nro=0;
 <html>
 <head>
 <meta charset="utf-8">
-<title>Venezon - Productos - Lista2</title>
+<title>ComputerSoft - Productos - Lista2</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -34,7 +34,7 @@ $nro=0;
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -110,7 +110,7 @@ $nro=0;
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       
     </div>

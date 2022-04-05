@@ -30,7 +30,7 @@ if(isset($_GET['fecha_inicial'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Reporte - Ventas - Form</title>
+<title>ComputerSoft - Reporte - Ventas - Form</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -42,7 +42,7 @@ if(isset($_GET['fecha_inicial'])) {
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -61,7 +61,7 @@ if(isset($_GET['fecha_inicial'])) {
   }
   .navbar{
 
-    background: yellow;
+    background: black;
 
   }
   .body1{
@@ -72,7 +72,7 @@ if(isset($_GET['fecha_inicial'])) {
   .menu2{
 
     font-size:24px;
-    color:black;
+    color:white;
 
   }
   .encab{
@@ -85,7 +85,7 @@ if(isset($_GET['fecha_inicial'])) {
   .menu2{
 
     font-size:19px;
-    color:black;
+    color:white;
 
    }
    

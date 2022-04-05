@@ -36,7 +36,7 @@ if(isset($_GET['id_producto'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Producto - Editar - Form</title>
+<title>ComputerSoft - Producto - Editar - Form</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -48,7 +48,7 @@ if(isset($_GET['id_producto'])) {
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -67,7 +67,7 @@ if(isset($_GET['id_producto'])) {
   }
   .navbar{
 
-    background: yellow;
+    background: black;
 
   }
   .body1{
@@ -78,7 +78,7 @@ if(isset($_GET['id_producto'])) {
   .menu2{
 
     font-size:24px;
-    color:black;
+    color:white;
 
   }
   .encab{
@@ -99,7 +99,7 @@ if(isset($_GET['id_producto'])) {
   .menu2{
 
     font-size:19px;
-    color:black;
+    color:white;
 
    }
    
@@ -167,7 +167,7 @@ if(isset($_GET['id_producto'])) {
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="productos.php">Volver</a></span></p> 
 

@@ -49,7 +49,7 @@ if(isset($_GET['moneda'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Crear Factura - Moneda</title>
+<title>ComputerSoft - Crear Factura - Moneda</title>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <script src="js/jquery-1.10.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -131,7 +131,7 @@ if(isset($_GET['moneda'])) {
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="crear_factura.php">Volver</a></span></p> 
 
@@ -156,7 +156,7 @@ if(isset($_GET['moneda'])) {
 	<br/>
 	<b>Cliente:</b> <?php echo $_SESSION['cliente'] ; ?>
 	<br/>
-	<b>Cédula o Rif:</b> <?php echo $_SESSION['cedula']; ?>
+	<b>Cédula:</b> <?php echo $_SESSION['cedula']; ?>
 	<br/>
 	<b>Teléfono:</b> <?php echo $_SESSION['telefono']; ?>
 	<br/>

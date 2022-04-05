@@ -46,7 +46,7 @@ if(isset($_GET['id_proveedor'])){
 <html>
 <head>
 <meta charset="utf-8">
-<title>Venezon - Facturas - Proveedores - Lista</title>
+<title>ComputerSoft - Facturas - Proveedores - Lista</title>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -61,7 +61,7 @@ if(isset($_GET['id_proveedor'])){
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -127,7 +127,7 @@ if(isset($_GET['id_proveedor'])){
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="buscar_proveedores.php">Volver</a></span></p> 
 
@@ -150,7 +150,7 @@ if(isset($_GET['id_proveedor'])){
 	<br/>
 	<b>Proveedor:</b> <?php echo $_SESSION['proveedor']; ?>
 	<br/>
-	<b>Cédula o Rif:</b> <?php echo $_SESSION['cedula_proveed']; ?>
+	<b>Cédula:</b> <?php echo $_SESSION['cedula_proveed']; ?>
 	<br/>
 	<b>Teléfono:</b> <?php echo $_SESSION['telefono_proveed']; ?>
 	<br/>

@@ -30,7 +30,7 @@ if(isset($_GET['id_moneda'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Moneda - Editar - Form</title>
+<title>ComputerSoft - Moneda - Editar - Form</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -101,7 +101,7 @@ if(isset($_GET['id_moneda'])) {
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="moneda_editar.php">Volver</a></span></p> 
 

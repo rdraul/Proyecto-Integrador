@@ -322,7 +322,7 @@ $correo=$_POST['correo'];
 $comercio=$_POST['comercio'];
 
 // Guarda datos 
-$sql="UPDATE tab_proveedores SET nac = '".$nac."', cedula = '".$cedula."', ";
+$sql="UPDATE tab_proveedores SET cedula = '".$cedula."', ";
 $sql.="nombres = '".$nombres."', apellidos = '".$apellidos."', ";
 $sql.="telefono = '".$telefono."', direccion = '".$direccion."', ";
 $sql.="correo = '".$correo."', comercio = '".$comercio."' ";

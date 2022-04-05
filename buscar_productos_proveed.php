@@ -22,12 +22,12 @@ $nro=0;
 <html>
 <head>
 <meta charset="utf-8">
-<title>Venezon - Productos - Lista</title>
+<title>ComputerSoft - Productos - Lista</title>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -98,7 +98,7 @@ $nro=0;
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="crear_proveed_factura.php">Volver</a></span></p> 
 

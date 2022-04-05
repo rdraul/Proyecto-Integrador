@@ -94,7 +94,7 @@ while ($row2=$query2->fetch_assoc()) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Factura - Proveedor - Vista</title>
+<title>ComputerSoft - Factura - Proveedor - Vista</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -189,7 +189,7 @@ function printe(){
 	<br/>
 	Proveedor: <?php echo $_SESSION['proveedor'] ; ?>
 	<br/>
-	Cédula o Rif: <?php echo $_SESSION['cedula_proveed']; ?>
+	Cédula: <?php echo $_SESSION['cedula_proveed']; ?>
 	<br/>
 	Teléfono: <?php echo $_SESSION['telefono_proveed']; ?>
 	<br/>

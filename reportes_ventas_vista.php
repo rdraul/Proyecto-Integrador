@@ -197,7 +197,7 @@ function array_sort($array, $on, $order=SORT_ASC)
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Reporte - Ventas</title>
+<title>ComputerSoft - Reporte - Ventas</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -209,7 +209,7 @@ function array_sort($array, $on, $order=SORT_ASC)
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -282,7 +282,7 @@ function printe(){
 
   <div class="form-group">
 
-    <img src='imagen/imgvenezon3.jpg' alt='logo venezon' width='80px' height='auto'>
+    <img src='imagen/' alt='' width='80px' height='auto'>
     <h3>Reporte - Ventas - Productos</h3>
     <p class="fecha_rep"><b>Fecha Inicial: </b><?php echo $fecha_inicial; ?>
     <br/><b>Fecha Final: </b><?php echo $fecha_final; ?>

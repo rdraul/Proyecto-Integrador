@@ -189,7 +189,7 @@ function printe(){
 	<br/>
 	Cliente: <?php echo $_SESSION['cliente'] ; ?>
 	<br/>
-	Cédula o Rif: <?php echo $_SESSION['cedula']; ?>
+	Cédula: <?php echo $_SESSION['cedula']; ?>
 	<br/>
 	Teléfono: <?php echo $_SESSION['telefono']; ?>
 	<br/>

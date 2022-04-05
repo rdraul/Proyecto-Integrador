@@ -41,7 +41,7 @@ if(isset($_GET['usuario'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Usuario - Form - Crear</title>
+<title>ComputerSoft - Usuario - Form - Crear</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -164,7 +164,7 @@ if(isset($_GET['usuario'])) {
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="usuario_menu.php">Volver</a></span></p> 
 

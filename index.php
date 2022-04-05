@@ -116,7 +116,7 @@ function compararFechas($primera, $segunda)
 
 			<header>
 
-				<h1><p class="titulo1">Ureña soft</h1>
+				<h1><p class="titulo1">ComputerSoft</h1>
 				<br/>
 				<p class="titulo2">Iniciar Sesión</p>
 				<br/>

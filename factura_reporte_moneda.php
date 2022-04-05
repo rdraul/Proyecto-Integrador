@@ -49,7 +49,7 @@ if(isset($_GET['moneda'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Factura - Vista - Moneda</title>
+<title>ComputerSoft - Factura - Vista - Moneda</title>
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <script src="js/jquery-1.10.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -128,7 +128,7 @@ function printe(){
 	<br/>
 	Cliente: <?php echo $_SESSION['cliente'] ; ?>
 	<br/>
-	Cédula o Rif: <?php echo $_SESSION['cedula']; ?>
+	Cédula: <?php echo $_SESSION['cedula']; ?>
 	<br/>
 	Teléfono: <?php echo $_SESSION['telefono']; ?>
 	<br/>

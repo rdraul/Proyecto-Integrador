@@ -52,7 +52,7 @@ $_SESSION['fecha'] = $fecha_actual;
 
 <link rel="stylesheet" type="text/css" href="css/estilos2.css">
 <link rel="stylesheet" type="text/css" href="fonts/style.css">
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
@@ -65,8 +65,8 @@ $_SESSION['fecha'] = $fecha_actual;
 		
 	}
 	.fondo{
-		width: 50%;
-		margin: 12% 0 0 30%;
+		width: 100%;
+		margin: 0% 0 0 0%;
 	}
 	.navegacion{
 		background-color: black;
@@ -76,10 +76,10 @@ $_SESSION['fecha'] = $fecha_actual;
 		color: white;
 	}
 	.usuario{
-		color:#000;
+		color: #000;
 	}
 	.usuario span{
-		color: #000;
+		color: white;
 	}
 </style>
 
@@ -135,7 +135,7 @@ $_SESSION['fecha'] = $fecha_actual;
 		<!--<img class="imagen1" src="imagen/imgvenezon1.jpg" alt="">
 		<img class="imagen2" src="imagen/imgvenezon2.jpg" alt="">
 		<img class="imagen4" src="imagen/imgvenezon4.jpg" alt="">-->
-		<img class="fondo" src="imagen/computer.jpg" alt="">
+		<img class="fondo" src="imagen/computer001.webp" alt="">
 
 	</section>
 

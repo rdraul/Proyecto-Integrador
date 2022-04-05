@@ -31,7 +31,7 @@ if(!isset($_SESSION['fecha_factura_porveed'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Factura - Proveedor - Nro</title>
+<title>ComputerSoft - Factura - Proveedor - Nro</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -102,7 +102,7 @@ if(!isset($_SESSION['fecha_factura_porveed'])) {
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="buscar_facturas_proveed.php?id_cliente=<?php echo $_SESSION['id_cliente'] ?>">Volver</a></span></p>  
 
@@ -126,7 +126,7 @@ if(!isset($_SESSION['fecha_factura_porveed'])) {
    <br/>
    <b>Proveedor:</b> <?php echo $_SESSION['proveedor']; ?>
    <br/>
-   <b>Cédula o Rif:</b> <?php echo $_SESSION['cedula_proveed']; ?>
+   <b>Cédula:</b> <?php echo $_SESSION['cedula_proveed']; ?>
    <br/>
    <b>Teléfono:</b> <?php echo $_SESSION['telefono_proveed']; ?>
    <br/>

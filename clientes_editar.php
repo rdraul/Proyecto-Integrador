@@ -71,7 +71,7 @@ if(isset($_GET['id_cliente'])) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Clientes - Editar - Form</title>
+<title>ComputerSoft - Clientes - Editar - Form</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -83,7 +83,7 @@ if(isset($_GET['id_cliente'])) {
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -102,7 +102,7 @@ if(isset($_GET['id_cliente'])) {
   }
   .navbar{
 
-    background: yellow;
+    background: black;
 
   }
   .body1{
@@ -113,7 +113,7 @@ if(isset($_GET['id_cliente'])) {
   .menu2{
 
     font-size:24px;
-    color:black;
+    color:white;
 
   }
   .encab{
@@ -202,7 +202,7 @@ if(isset($_GET['id_cliente'])) {
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
-      <p class="navbar-brand"><span class="menu2">Venezon</span></p> 
+      <p class="navbar-brand"><span class="menu2">ComputerSoft</span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="panel.php">Menu</a></span></p> 
       <p class="navbar-brand"><span class="menu2"><a href="buscar_clientes.php">Volver</a></span></p> 
 
@@ -232,17 +232,17 @@ if(isset($_GET['id_cliente'])) {
     <form id="formulario_cliente" class="form-horizontal" method="post" action="return false" onsubmit="return false">
 
       <div class="form-group">
-        <label for="cedula" class="control-label col-md-2">Cédula o Rif:</label>
+        <label for="cedula" class="control-label col-md-2">Cédula:</label>
         <div class="col-md-1">
           
             <div class="input-group">
-            <input id="nac" style="width:38px" class="form-control" type="text" name="nac" size="1" maxlength="1" autofocus value="<?php echo $nac ?>"/>
+            <input id="nac" style="width:48px" class="form-control" type="text" name="nac" size="1" maxlength="3" autofocus value="<?php echo $nac ?>"/>
             <span class="input-group-addon">-</span>
             <input id="cedula" style="width:150px" class="form-control" type="text" name="cedula" size="20" maxlength="20" value="<?php echo $cedula ?>"/>
             <span class="input-group-addon">-</span>
             <input id="rif_final" style="width:38px" class="form-control" type="text" name="rif_final" size="1" maxlength="1" value="<?php echo $rif_final ?>"/>
             </div>
-            <span class="input-group-addon">por ejemplo: V-10256851 o J-10254856-2</span>
+            <span class="input-group-addon">por ejemplo: 031-1025685-1 o 031-10254856-2</span>
          
         </div>
       </div>

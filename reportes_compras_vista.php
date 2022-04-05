@@ -195,7 +195,7 @@ function array_sort($array, $on, $order=SORT_ASC)
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Reporte - Compras</title>
+<title>ComputerSoft - Reporte - Compras</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -280,7 +280,7 @@ function printe(){
 
   <div class="form-group">
 
-    <img src='imagen/imgvenezon3.jpg' alt='logo venezon' width='80px' height='auto'>
+    <img src='imagen/' alt='' width='80px' height='auto'>
     <h3>Reporte - Compras - Productos</h3>
     <p class="fecha_rep"><b>Fecha Inicial: </b><?php echo $fecha_inicial; ?>
     <br/><b>Fecha Final: </b><?php echo $fecha_final; ?>
