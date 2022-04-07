@@ -130,7 +130,7 @@ function printe(){
 
   <div class="form-group">
 
-    <img src='imagen/imgvenezon3.jpg' alt='' width='80px' height='auto'>
+    <img src='imagen/' alt='' width='80px' height='auto'>
 
   </div>
 

@@ -113,7 +113,7 @@ function printe(){
 
 <div align="right" style="padding-top:20px; float:right;">
 
-<img src='imagen/imgvenezon3.jpg' alt='logo venezon' width='50%' height='auto'>
+<img src='imagen/' alt='' width='50%' height='auto'>
 
 </div>
 

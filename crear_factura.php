@@ -496,7 +496,7 @@ if(isset($_POST['submit3'])){
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -548,7 +548,7 @@ if(isset($_POST['submit3'])){
   }
   .navbar{
 
-  	background: yellow;
+  	background: black;
 
   }
   .body1{
@@ -559,7 +559,7 @@ if(isset($_POST['submit3'])){
   .menu2{
 
   	font-size:24px;
-  	color:black;
+  	color:white;
 
   }
   .encab{
@@ -572,7 +572,7 @@ if(isset($_POST['submit3'])){
   .menu2{
 
   	font-size:19px;
-  	color:black;
+  	color:white;
 
    }
    

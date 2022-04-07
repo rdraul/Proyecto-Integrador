@@ -94,7 +94,7 @@ while ($row2=$query2->fetch_assoc()) {
 <head>
 
 <meta charset="utf-8">
-<title>Venezon - Factura - Vista</title>
+<title>ComputerSoft - Factura - Vista</title>
 
 <link rel="stylesheet" href="demo/libs/bundled.css">
 <script src="demo/libs/bundled.js"></script>
@@ -106,7 +106,7 @@ while ($row2=$query2->fetch_assoc()) {
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="fonts/style.css">
 
-<link rel="shortcut icon" href="imagen/avatar.png" />
+<link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <style type="text/css">
@@ -175,7 +175,7 @@ function printe(){
 
 <div align="right" style="float:right;">
 
-<img src='imagen/imgvenezon3.jpg' alt='logo venezon' width='50%' height='auto'>
+<img src='imagen/' alt='' width='50%' height='auto'>
 
 </div>
 

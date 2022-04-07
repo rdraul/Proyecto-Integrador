@@ -26,7 +26,7 @@
     }
     .loading .spin {
         border: 12px solid white;
-        border-top-color: yellow;
+        border-top-color: black;
         border-radius: 50%;
         width: 4em;
         height: 4em;

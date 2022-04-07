@@ -60,7 +60,7 @@ $nro=0;
   }
   .navbar{
 
-  	background: yellow;
+  	background: black;
 
   }
   .body1{
@@ -71,7 +71,7 @@ $nro=0;
   .menu2{
 
   	font-size:24px;
-  	color:black;
+  	color:white;
 
   }
   .encab{
@@ -84,7 +84,7 @@ $nro=0;
   .menu2{
 
   	font-size:19px;
-  	color:black;
+  	color:white;
 
    }
    
