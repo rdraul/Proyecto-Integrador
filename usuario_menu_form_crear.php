@@ -72,7 +72,7 @@ if(isset($_GET['usuario'])) {
   }
   .navbar{
 
-    background: yellow;
+    background: black;
 
   }
   .body1{
@@ -83,7 +83,7 @@ if(isset($_GET['usuario'])) {
   .menu2{
 
     font-size:24px;
-    color:black;
+    color:white;
 
   }
   .encab{
@@ -96,7 +96,7 @@ if(isset($_GET['usuario'])) {
   .menu2{
 
     font-size:19px;
-    color:black;
+    color:white;
 
    }
    
