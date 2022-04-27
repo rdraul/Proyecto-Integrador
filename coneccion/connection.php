@@ -3,7 +3,7 @@
 $server="localhost"; 
 $user="root";
 $pass="";//"mini2019";
-$db="venezon";
+$db="proyecto-integrador";
 
 
 $mysqli = new mysqli($server, $user, $pass, $db);

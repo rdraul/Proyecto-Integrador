@@ -156,7 +156,7 @@ if(isset($_GET['moneda'])) {
 	<br/>
 	<b>Cliente:</b> <?php echo $_SESSION['proveedor'] ; ?>
 	<br/>
-	<b>Cédula:</b> <?php echo $_SESSION['nac_proveed']."-".$_SESSION['cedula_proveed']; ?>
+	<b>Cédula:</b> <?php echo $_SESSION['cedula_proveed']; ?>
 	<br/>
 	<b>Teléfono:</b> <?php echo $_SESSION['telefono_proveed']; ?>
 	<br/>

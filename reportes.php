@@ -25,7 +25,7 @@ if ($definido==false){
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 <style type="text/css">
   .pagina {
    padding:8px 16px;
@@ -138,13 +138,13 @@ if ($definido==false){
 <div class="row">
   <div class="col-md-12">
     <p class="rep_list">
-      <a href="reportes_ventas.php">Ventas Productos</a>
+      <a href="reportes_ventas.php"><i class="bi bi-arrow-right"></i>  Ventas Productos</a>
     </p>
     <p class="rep_list">
-      <a href="reportes_compras.php">Compras Productos</a>
+      <a href="reportes_compras.php"><i class="bi bi-arrow-right"></i>  Compras Productos</a>
     </p>
     <p class="rep_list">
-      <a href="reportes_inventario_vista.php">Inventario Productos</a>
+      <a href="reportes_inventario_vista.php"><i class="bi bi-arrow-right"></i>  Inventario Productos</a>
     </p>
   </div>
 </div>

@@ -544,7 +544,7 @@ if(isset($_POST['submit3'])){
   }
   .navbar{
 
-  	background: yellow;
+  	background: black;
 
   }
   .body1{
@@ -555,7 +555,7 @@ if(isset($_POST['submit3'])){
   .menu2{
 
   	font-size:24px;
-  	color:black;
+  	color:white;
 
   }
   .encab{
@@ -568,7 +568,7 @@ if(isset($_POST['submit3'])){
   .menu2{
 
   	font-size:19px;
-  	color:black;
+  	color:white;
 
    }
    
@@ -658,10 +658,10 @@ if(isset($_POST['submit3'])){
 		$nro_reng2++;
 		$nro_reglon=$nro_reng2;
 		
-		$subtotal=$_SESSION['carrito_proveed'][$nro_reglon]['cantidad']*$_SESSION['carrito_proveed'][$nro_reglon]['precio'];
+		$subtotal=(int)$_SESSION['carrito_proveed'][$nro_reglon]['cantidad']*(int)$_SESSION['carrito_proveed'][$nro_reglon]['precio'];
 		$totalprice+=$subtotal;
 
-		$cantidad2+=$_SESSION['carrito_proveed'][$nro_reglon]['cantidad'];
+		$cantidad2+=(int)$_SESSION['carrito_proveed'][$nro_reglon]['cantidad'];
 		
 ?>
 
@@ -672,7 +672,7 @@ if(isset($_POST['submit3'])){
 		<td><?php echo $_SESSION['carrito_proveed'][$nro_reglon]['descripcion'] ?></td>
 		<td align="center"><input class="form-control" id="cantidad" type="text" name="cantidad[<?php echo $nro_reglon ?>]" size="6" maxlength="6" value="<?php echo $_SESSION['carrito_proveed'][$nro_reglon]['cantidad'] ?>" /></td>
 		<td><div class="monto"><?php echo number_format($_SESSION['carrito_proveed'][$nro_reglon]['precio'],2,',','.') ?></div></td>
-		<td><div class="monto"><?php echo number_format($_SESSION['carrito_proveed'][$nro_reglon]['cantidad']*$_SESSION['carrito_proveed'][$nro_reglon]['precio'],2,',','.'); ?></div></td>
+		<td><div class="monto"><?php echo number_format((int)$_SESSION['carrito_proveed'][$nro_reglon]['cantidad']*(int)$_SESSION['carrito_proveed'][$nro_reglon]['precio'],2,',','.'); ?></div></td>
 		<td><a href="#" onclick="Validar3(<?php echo $_SESSION['carrito_proveed'][$nro_reglon]['orden']?>)">Eliminar</a></td>
 
 	</tr>

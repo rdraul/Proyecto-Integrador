@@ -62,6 +62,7 @@ if(isset($_GET['id_cliente'])){
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <style type="text/css">
   .pagina {
@@ -83,7 +84,8 @@ if(isset($_GET['id_cliente'])){
   }
   .th_color{
 
-  	background: green;
+  	background: black;
+	color: white;
 
   }
   .navbar{
@@ -100,8 +102,11 @@ if(isset($_GET['id_cliente'])){
   .menu2{
 
   	font-size:24px;
-  	color:black;
+  	color:white;
 
+  }
+  .menu2 a{ 
+	color:white;
   }
   .encab{
 
@@ -119,8 +124,7 @@ if(isset($_GET['id_cliente'])){
    .navbar-brand{
 	   color: #fff;
    }
-   
-  }	  
+}	  
 
 </style>
 </head>
@@ -144,7 +148,7 @@ if(isset($_GET['id_cliente'])){
    <p class="usuario3">
 
 	<span class="encab">	
-	<span class="text-danger">
+	<span class="text-dark">
 	Fecha Sistema: <?php echo $_SESSION['fecha']; ?>
 	<br/>
 	Usuario: <?php echo $_SESSION['usuario']; ?>
@@ -236,7 +240,7 @@ return $tfecha;
 
 <div class="table-responsive">
 
-<p><span class="encab"><a href="crear_factura.php">Crear Factura</a></span></p>
+<p><span class="encab"><a href="crear_factura.php"><i class="bi bi-plus-circle-fill"></i> Crear Factura</a></span></p>
 <table class="table table-bordered table-hover">
   <thead>
 	<tr class='th_color'>
@@ -275,7 +279,7 @@ return $tfecha;
 		<td><div class="monto"><?php echo number_format($row['total_desc'],2,',','.'); ?></div></td>
 		<td><?php echo $row['anulado']; ?></td>
 		<td>
-			<a href="factura_reporte.php?id_factura=<?php echo $row['id_factura'] ?>&nro_factura=<?php echo $row['nro_factura'] ?>&fecha_reg=<?php echo $fecha_reg ?>&total=<?php echo $row['total'] ?>&descuento=<?php echo $row['descuento'] ?>&total_desc=<?php echo $row['total_desc'] ?>">Vista</a> 
+			<a style="padding: 0 23px;" href="factura_reporte.php?id_factura=<?php echo $row['id_factura'] ?>&nro_factura=<?php echo $row['nro_factura'] ?>&fecha_reg=<?php echo $fecha_reg ?>&total=<?php echo $row['total'] ?>&descuento=<?php echo $row['descuento'] ?>&total_desc=<?php echo $row['total_desc'] ?>"><i class="bi bi-eye"></i></a> 
 			<?php
 			
 				if($row['anulado']=='no'){
@@ -284,7 +288,7 @@ return $tfecha;
 					$nro_factura=$row['nro_factura'];
 					$id_cliente_a=$_SESSION['id_cliente'];
 
-					echo "<a href='#' onclick='Validar4($id_factura_anular, $nro_factura, $id_cliente_a)'>Anular</a>";
+					echo "<a href='#' onclick='Validar4($id_factura_anular, $nro_factura, $id_cliente_a)'><i class='bi bi-trash'></i></a>";
 			
 				}else{
 

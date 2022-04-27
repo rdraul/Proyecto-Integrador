@@ -80,7 +80,7 @@ for($i=1;$i<=$_SESSION['total_productos_proveed'];$i++){
 
 if($total_productos!=$_SESSION['totalprice_proveed']){
 
-	echo "<p style='font-family: Arial; font-size: 11pt; color: red'>Totales no coinciden</p>";
+	echo "<p style='font-family: Arial; font-size: 11pt; color: red'>Totales no coinciden o actualizo la cantidad en existencia con valores iguales</p>";
 	exit();
 
 }

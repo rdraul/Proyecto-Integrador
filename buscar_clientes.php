@@ -33,6 +33,7 @@ if ($definido==false){
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <style type="text/css">
   .pagina {
@@ -91,8 +92,16 @@ if ($definido==false){
 
    }
    
-  }	  
-  
+  }	 
+  .bi-pencil{
+    color:black;
+  }
+  .bi-trash{
+    color: red;
+  }
+  .icons-table a{
+    padding: 0 23px;
+  }
 </style>
 </head>
 <body class="body1">
@@ -220,12 +229,12 @@ return $tfecha;
 		<td><?php echo $row['nombres']; ?></td>
 		<td><?php echo $row['apellidos']; ?></td>
 		<td><?php echo $row['cedula']; ?></td>
-		<td>
+		<td class="icons-table">
       
-      <a href="clientes_reporte.php?id_cliente=<?php echo $row['id_cliente']?>">Vista</a>
-      <a href="#" onclick="Validar3(<?php echo $row['id_cliente'] ?>, '<?php echo $row['nombres'] ?>')">Editar</a>
-      <a href="#" onclick="Validar4(<?php echo $row['id_cliente']?>, '<?php echo $row['nombres'] ?>')">Eliminar</a>
-      <a href="buscar_facturas.php?id_cliente=<?php echo $row['id_cliente'] ?>">Facturas</a>
+      <a href="clientes_reporte.php?id_cliente=<?php echo $row['id_cliente']?>"><i class="bi bi-eye"></i></a>
+      <a href="#" onclick="Validar3(<?php echo $row['id_cliente'] ?>, '<?php echo $row['nombres'] ?>')"><i class="bi bi-pencil"></i></a>
+      <a href="#" onclick="Validar4(<?php echo $row['id_cliente']?>, '<?php echo $row['nombres'] ?>')"><i class="bi bi-trash"></i></a>
+      <a href="buscar_facturas.php?id_cliente=<?php echo $row['id_cliente'] ?>"><i class="bi bi-receipt"></i></a>
 
     </td>
 
