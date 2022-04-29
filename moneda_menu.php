@@ -32,6 +32,7 @@ if ($definido==false){
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <style type="text/css">
  
@@ -86,6 +87,16 @@ if ($definido==false){
    }
    
   }   
+
+  .bi-pencil{
+    color:black;
+  }
+  .bi-trash{
+    color: red;
+  }
+  .icons-table a{
+    padding: 0 23px;
+  }
 
 </style>
 
@@ -170,10 +181,10 @@ if($query2->num_rows==0){
 		  
 			<td><?php echo  utf8_decode($row2['moneda']) ?></td>
 			<td><div class="monto"><?php echo number_format($row2['valor_cambio'],2,',','.') ?></div></td>
-			<td>
+			<td class="icons-table">
 
-        <a href="#" onclick="Validar3('<?php echo $row2['moneda']?>', <?php echo $row2['id_moneda']?>, <?php echo $row2['valor_cambio']?>)">Editar</a>
-        <a href="#" onclick="Validar4('<?php echo $row2['moneda']?>', <?php echo $row2['id_moneda']?>)">Eliminar</a>
+        <a href="#" onclick="Validar3('<?php echo $row2['moneda']?>', <?php echo $row2['id_moneda']?>, <?php echo $row2['valor_cambio']?>)"><i class="bi bi-pencil"></i></a>
+        <a href="#" onclick="Validar4('<?php echo $row2['moneda']?>', <?php echo $row2['id_moneda']?>)"><i class="bi bi-trash"></i></a>
 
       </td>
 		

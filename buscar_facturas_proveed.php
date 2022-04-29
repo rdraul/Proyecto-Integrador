@@ -63,6 +63,7 @@ if(isset($_GET['id_proveedor'])){
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <style type="text/css">
   .pagina {
@@ -272,7 +273,7 @@ return $tfecha;
 		<td><div class="monto"><?php echo number_format($row['total_desc'],2,',','.'); ?></div></td>
 		<td><?php echo $row['anulado']; ?></td>
 		<td>
-			<a href="factura_proveed_reporte.php?id_factura_proveedor=<?php echo $row['id_factura_proveedor'] ?>&nro_factura_proveedor=<?php echo $row['nro_factura_proveedor'] ?>&fecha_prov=<?php echo $fecha_prov ?>&total=<?php echo $row['total'] ?>&descuento=<?php echo $row['descuento'] ?>&total_desc=<?php echo $row['total_desc'] ?>">Vista</a> 
+			<a style="padding: 0 23px;" href="factura_proveed_reporte.php?id_factura_proveedor=<?php echo $row['id_factura_proveedor'] ?>&nro_factura_proveedor=<?php echo $row['nro_factura_proveedor'] ?>&fecha_prov=<?php echo $fecha_prov ?>&total=<?php echo $row['total'] ?>&descuento=<?php echo $row['descuento'] ?>&total_desc=<?php echo $row['total_desc'] ?>"><i class="bi bi-eye"></i></a> 
 			<?php
 			
 				if($row['anulado']=='no'){
@@ -283,7 +284,7 @@ return $tfecha;
 
 			?>		
 
-					<a href='#' onclick="Validar4(<?php echo $id_factura_anular; ?>, '<?php echo $nro_factura_proveedor; ?>', <?php echo $id_proveedor_a; ?>)">Anular</a>
+					<a href='#' onclick="Validar4(<?php echo $id_factura_anular; ?>, '<?php echo $nro_factura_proveedor; ?>', <?php echo $id_proveedor_a; ?>)"><i class='bi bi-trash'></i></a>
 			
 			<?php		
 

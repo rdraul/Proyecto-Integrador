@@ -36,6 +36,8 @@ $nro=0;
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
 
 <style type="text/css">
   .pagina {
@@ -101,7 +103,15 @@ $nro=0;
   }	
 
  }
-
+ .bi-pencil{
+    color:black;
+  }
+  .bi-trash{
+    color: red;
+  }
+  .icons-table a{
+    padding: 0 23px;
+  }
 </style>
 </head>
 <body class="body1">
@@ -250,10 +260,10 @@ return $tfecha;
       <?php echo number_format($row['precio_final'],2,',','.') ?>
       </div>
     </td>
-		<td>
-     <a href="productos_reporte.php?id_producto=<?php echo $row['id_producto']?>">Vista</a>
-     <a href="#" onclick="Validar3(<?php echo $row['id_producto']?>, '<?php echo $nro ?>', '<?php echo $row['producto'] ?>', '<?php echo $row['descripcion'] ?>', <?php echo $row['precio_compra'] ?>, <?php echo $row['precio_final'] ?>)">Editar</a>
-     <a href="#" onclick="Validar4(<?php echo $row['id_producto']?>, '<?php echo $nro ?>')">Eliminar</a>
+		<td class="icons-table">
+     <a href="productos_reporte.php?id_producto=<?php echo $row['id_producto']?>"><i class="bi bi-eye"></i></a>
+     <a href="#" onclick="Validar3(<?php echo $row['id_producto']?>, '<?php echo $nro ?>', '<?php echo $row['producto'] ?>', '<?php echo $row['descripcion'] ?>', <?php echo $row['precio_compra'] ?>, <?php echo $row['precio_final'] ?>)"><i class="bi bi-pencil"></i></a>
+     <a href="#" onclick="Validar4(<?php echo $row['id_producto']?>, '<?php echo $nro ?>')"><i class="bi bi-trash"></i></a>
     </td>
 
 	  </tr>

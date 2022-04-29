@@ -32,6 +32,7 @@ if ($definido==false){
 
 <link rel="shortcut icon" href="imagen/avatar.jfif" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <style type="text/css">
  
@@ -86,6 +87,16 @@ if ($definido==false){
    }
    
   }   
+
+  .bi-pencil{
+    color:black;
+  }
+  .bi-trash{
+    color: red;
+  }
+  .icons-table a{
+    padding: 0 23px;
+  }
 
 </style>
 
@@ -175,10 +186,10 @@ if($query2->num_rows==0){
 			<td><?php echo $row2['contrasena'] ?></td>
       <td><?php echo $row2['rol'] ?></td>
       <td><?php echo  utf8_decode($row2['nombre']) ?></td>
-			<td>
+			<td class="icons-table">
 
-        <a href="#" onclick="Validar3(<?php echo $row2['id_usuario']?>, '<?php echo $row2['usuario']?>', '<?php echo $row2['contrasena']?>', '<?php echo $row2['nombre']?>', '<?php echo $row2['rol']?>')">Editar</a>
-        <a href="#" onclick="Validar4(<?php echo $row2['id_usuario']?>, '<?php echo $row2['usuario'] ?>')">Eliminar</a>
+        <a href="#" onclick="Validar3(<?php echo $row2['id_usuario']?>, '<?php echo $row2['usuario']?>', '<?php echo $row2['contrasena']?>', '<?php echo $row2['nombre']?>', '<?php echo $row2['rol']?>')"><i class="bi bi-pencil"></i></a>
+        <a href="#" onclick="Validar4(<?php echo $row2['id_usuario']?>, '<?php echo $row2['usuario'] ?>')"><i class="bi bi-trash"></i></a>
 
       </td>
 		
